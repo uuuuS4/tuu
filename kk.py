@@ -6,7 +6,7 @@ from datetime import datetime, timedelta
 from telebot.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 # Bot token and admin ID
-bot_token = '7706816535:AAFjqNpIf-LjKRpuA7JfLTq0FGOrNq4J4Xc'
+bot_token = '7804021606:AAGL8PGHWGroReC0oqYz6wlZ2FebvZOBquw'
 admin_id = '6769245930'  # Replace with your actual admin user ID
 GROUP_ID = '-1002220511003'  # Allowed group ID
 
