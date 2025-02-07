@@ -63,7 +63,7 @@ def request_access(call):
     user_id = call.data.split('_')[1]
     user = bot.get_chat(user_id)
     username = user.username if user.username else "No username"
-    bot.send_message(admin_id, f"✅ 𝗡𝗘𝗪 𝗥𝗘𝗤𝗨𝗘𝗦𝗧\n\n🆔 - `{user_id}` 𝕠𝐫👤 @({username}) \n𝗥𝗲𝗾𝘂𝗲𝘀𝘁𝗲𝗱 𝗳𝗼𝗿 𝗽𝗿𝗶𝘃𝗮𝘁𝗲\n✓ `/approve_in_private {user_id}` to approve.")
+    bot.send_message(admin_id, f"✅ 𝗡𝗘𝗪 𝗥𝗘𝗤𝗨𝗘𝗦𝗧\n\n🆔 - `{user_id}` 𝕠𝐫👤 @{username}\n𝗥𝗲𝗾𝘂𝗲𝘀𝘁𝗲𝗱 𝗳𝗼𝗿 𝗽𝗿𝗶𝘃𝗮𝘁𝗲\n✓ `/approve_in_private {user_id}` to approve.")
     bot.send_message(user_id, "𝗥𝗘𝗤𝗨𝗘𝗦𝗧 𝗦𝗘𝗡𝗗 𝗦𝗨𝗖𝗖𝗘𝗦𝗦𝗙𝗨𝗟𝗟𝗬✅\n𝗣𝗟𝗘𝗔𝗦𝗘 𝗪𝗔𝗜𝗧 𝗙𝗢𝗥 𝗔𝗣𝗣𝗥𝗢𝗩𝗔𝗟")
 
 # Command: Approve user for private chat
